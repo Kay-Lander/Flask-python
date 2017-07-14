@@ -1,0 +1,12 @@
+select * from languages
+
+where language like 'slovene'
+
+order by percentage desc;
+
+
+select * from countries
+
+join cities on cities.country_id = country_id;
+
+

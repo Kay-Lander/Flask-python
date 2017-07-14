@@ -1,0 +1,18 @@
+select * from users;
+
+select * from faves;
+
+select * from tweets;
+
+insert into tweets (tweet , user_id, created_at, updated_at)
+
+value ("Helllo", 1, now(), now());
+
+select * from tweets;
+select * from users;
+
+update users set first_name = 'Coby', last_name = 'Wayne' where id = 1;
+delete from 'twitter' * 'tweets' 
+where id >= 14;
+select concat('Mr', ' ' , first_name, ' ',  last_name) from users
+

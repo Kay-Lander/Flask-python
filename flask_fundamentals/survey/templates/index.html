@@ -1,0 +1,27 @@
+<html>
+    <head>
+       <title>CodingDojo Survey</title>
+       <link rel="stylesheet" href="/static/css/style.css">
+    </head>
+    <body>
+      <h1>CodingDojo Survey</h1>
+      <form action='/success' method='post'>
+        Name: <input type='text' name='name'>
+        Dojo Location: <select name="location">
+            <option value='dallas'>Dallas</option>
+            <option value="seattle">Seattle</option>
+            <option value="los angeles">Los Angeles</option>
+            <option value="chicago">Chicago</option>
+            </select>
+        Favortie Language: <select name="language">
+            <option value="python">Python</option>
+            <option value="c++">C++</option>
+            <option value="ruby">Ruby</option>
+            <option value="java">Java</option>
+            </select>
+        Comments (optional): <textarea name="comment" rows="15" cols="10">
+            </textarea>
+          <input type='submit' value='create survey'>
+      </form>
+    </body>
+</html>
